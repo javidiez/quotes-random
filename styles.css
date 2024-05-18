@@ -1,0 +1,75 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Lato", sans-serif;
+	box-sizing: border-box;
+}
+
+body{
+	background: url(img/biblioteca.webp) no-repeat center center/cover;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	text-align: center;
+}
+
+.contenedor{
+	background-color: #fff;
+	border: 3px solid black;
+	border-radius: 30px;
+	width: 80vw;
+	max-width: 600px;
+	min-height: 500px;
+	padding: 20px;
+}
+
+.contenedor-interno{
+	width: 80%;
+}
+
+.contenido-centrado{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+/* Contenido */
+
+#titulo{
+	width: 100%;
+	font-weight: bold;
+	text-align: center;
+  font-family: "Courgette", cursive;
+  font-weight: 400;
+}
+
+#cita{
+	font-size: 32px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin: 10px;
+
+}
+
+#autor{
+	width: 100%;
+	font-size: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	font-family: "Courgette", cursive;
+}
+
+#boton-cambiar-cita{
+	width: 180px;
+	height: 50px;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
