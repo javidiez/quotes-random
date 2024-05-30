@@ -8,7 +8,7 @@ let citas = [
 		'texto': 'Semanas de programación te pueden ahorrar horas de planeación.'
 	},
 	{
-		'autor': 'Alan Kay',
+		'autor': 'Alan Kay ',
 		'texto': 'La mejor forma de predecir el futuro es inventarlo.'
 	},
 	{
